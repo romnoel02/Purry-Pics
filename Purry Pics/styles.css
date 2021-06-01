@@ -1,0 +1,365 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap);
+* {
+  box-sizing: border-box;
+  font-family: Raleway;
+  color: #777;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: seashell;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+.bgheader {
+  background-image: url("CSS/asdfasdfsd.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
+
+.indexheader {
+  background-image: url("CSS/index.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
+
+.webname {
+  text-align: center;
+  margin: auto;
+  font-size: 4em;
+
+  font-style: inherit;
+  font-weight: normal;
+  color: white;
+}
+
+.webname-large {
+  font-size: 8em;
+  font-family: Nunito Sans;
+}
+
+.content-section {
+  margin: 1em;
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.head-section {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.paws {
+  height: 300px;
+  width: 300px;
+  border-radius: 100px;
+  margin: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.main-footer {
+  font-family: Nunito Sans;
+  background-color: #777;
+  color: white;
+  padding: 0.25em 0;
+  font: normal;
+}
+
+.main-footer-container {
+  display: flex;
+  font-family: Nunito Sans;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.fb {
+  width: 19px;
+  height: 19px;
+}
+
+.footer-nav li {
+  padding: 0 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+
+.btn-header {
+  display: block;
+  text-align: center;
+  margin: 0.5em 20% 2em 25%;
+  color: white;
+  border: 2px solid #2dcfdb;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10%;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.news-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.news-row:last-child {
+  border-bottom: none;
+}
+
+.news-item {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.news-date {
+  color: #555;
+  font-weight: bold;
+  width: 11%;
+}
+
+.news-place {
+  width: 24%;
+}
+
+.news-content {
+  width: 42%;
+}
+
+.news-button {
+  max-width: 19%;
+}
+
+.button-primary {
+  width: 100;
+  height: 300;
+  color: white;
+  background-color: #2dcfdb;
+  border: none;
+  border-radius: 12px;
+  font-weight: bolder;
+}
+
+.button-primary:hover {
+  background-color: #2d95db;
+}
+
+.storeheader {
+  background-image: url("CSS/ogman.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
+
+.shop-item {
+  margin: 30px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  color: #333;
+}
+
+.store {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #cc4c4c;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 8px;
+  border: 1px solid #2dcfdb;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.73em;
+}
